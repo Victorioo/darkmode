@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'poppins';
+    font-weight: 100;
+    overflow: hidden;
+}
+
+body {
+    transition: background-color 1s;
+}
+
+.card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(221, 221, 221);
+    width: 70%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 15vh 20vw;
+    box-shadow: 0 0 20px 2px black;
+    transition: background-color 1s, color 1s, box-shadow 1s;
+    
+}
+
+h1 {
+    align-self: center;
+}
+
+h2, p {
+    margin-left: 2rem;
+}
+
+.contmode {
+    width: 4.9rem;
+    background-color:rgb(0, 0, 0);
+    display: inline-block;
+    border-radius: 2rem;
+    border: 1px solid black;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.97);
+    margin-left: 45vw;
+    display: flex;
+}
+
+.btn-light {
+    margin: .31rem;
+    padding: 1rem 1.2rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    height: 1.5rem;
+    transition: transform 2s, background-color 1s;
+    cursor: pointer;
+}
+
+.darkcont {
+    background-color: rgb(255, 254, 254);
+    transition: background-color 1s;
+}
+
+.darkmode {
+    margin: .25rem;
+    padding: 1rem 1.2rem;
+    border: none;
+    border-radius: 1rem;
+    height: 1.5rem;
+    cursor: pointer;
+    transform: translateX(2rem);
+    border: none;
+    transition: transform 2s, background-color 1s;
+    background-color: rgb(0, 0, 0);
+}
+
+.darkbody {
+    background-color: rgb(30, 28, 28);
+    transition: background-color 1s;
+}
+
+.darkcard {
+    background-color: rgb(30, 28, 28);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 2px rgba(157, 155, 155, 0.325);
+    transition: background-color 1s, color 1s, box-shadow 1s;
+}
